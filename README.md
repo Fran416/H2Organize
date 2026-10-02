@@ -11,8 +11,6 @@ User Experience Design for Rural Drinking Water Committee Management.
 - [2. Strategy and Scope](#2-strategy-and-scope)
   - [2.1. UX Personas](#21-ux-personas)
   - [2.2. Value Proposition Canvas](#22-value-proposition-canvas)
-- [3. Structure, Skeleton and Surface](#3-structure-skeleton-and-surface)
-- [4. Evaluation](#4-evaluation)
 
 ## 1. Introduction
 
@@ -39,18 +37,52 @@ The proposed solution operates on two main fronts, supported by a familiar commu
 * Frictionless Notifications (WhatsApp Integration): To bridge the digital divide, H2Organizer will leverage WhatsApp as its primary notification system. Since WhatsApp is already the established and trusted tool for coordination in these rural communities, using it for automated alerts (such as new bills, payment reminders, or service updates) drastically reduces the learning curve and ensures critical information reaches everyone.
 
 ### 1.3. Team and Roles
-* Francisco Lizama >>> Project Manager
-* Gabriel Valenzuela >>> UX Researcher
-* José Francisco Saldias >>> QA Specialist
+* Francisco Lizama → Project Manager
+* Gabriel Valenzuela → UX Researcher
+* José Francisco Saldias → QA Specialist
 
 ## 2. Strategy and Scope
 
+The strategy for H2Organize is centered on bridging the digital divide in rural communities while ensuring absolute data privacy. Our scope focuses on developing essential administrative and communication features that deliver immediate value without overwhelming users who have limited technological resources. To aling our decisions with actual community needs, we researched the user base and mapped their requirements
+
 ### 2.1. UX Personas
 
+** Persona 1: Juan **
+
+As the president and main provider for his family, Juan has lived in the rural Temuco community his entire life and carries the heavy burden of keeping the system operational. Despite his deep of knowledge of the APR system, he has a very little experience using digital platforms. His major pain points are manual recordkeeping and the resulting wasted time. He needs simple, affordable software that remains reliable during periods of poor conectivity to reduce the time spent recording and collecting water charges.
+
+![UX Persona - Juan](docs/images/PersonaCanvas/1Juan.png)
+
+** Persona 2: Pedro ** 
+
+Pedro represents the elderly segment of the community; he is retired, has limited digital skills, and relies on younger family members for assistance. His greatest frustrations stem from his limited technology skills, difficulty seeing clearly, and a general distrust of digital systems. Furthermore, he struggles to navigate menus with many options. For Pedro, the system must provide simple software with technical support, ensuring strict privacy for his bills and payments.
+
+![UX Persona - Pedro](docs/images/PersonaCanvas/2Pedro.png)
+
+** Persona 3: Juana **
+
+Holding a master's degree in Mathematical Civil Engineering, Juana represents users with high digital literacy. Her pain points revolve around the uncertainty of her bills, the difficulty in reporting errors to the committee leadership, and having little time to follow up on her water usage records. She requires simple, intuitive software that provides payment estimates and a quick way to report errors in water charges to save time.
+
+![UX Persona - Juana](docs/images/PersonaCanvas/3Juana.png)
+
+** Persona 4: Julio **
+
+Julio has worked as the system operator for four years and directly faces the challenges of fieldwork. His main pain points are manual recordkeeping and wasted time. He needs simple and intuitive software that is reliable in areas with poor connectivity to allow for the quick and easy submission of meter readings. His broader goals include improving communication with the committee, making health recordkeeping easier, and receiving notifications about water supply interruptions.
+
+![UX Persona - Julio](docs/images/PersonaCanvas/4Julio.png)
 
 ### 2.2. Value Proposition Canvas
 
+![Value Proposition Canvas](docs/images/ValuePropositionCanvas/VPC.png)
 
-## 3. Structure, Skeleton and Surface
+The "Value Proposition Canvas" ensured that the features of H2Organize directly address the frustrations of our Personas while delivering tangible benefits
 
-## 4. Evaluation
+** Customer Profile ** 
+- Customer Jobs: The users are trying to protect sensitive data, record water consumption and payments, and share important notices such as water outages or member meetings.
+- Pains: Currently, users experience negative situations related to inefficient management and communication. They are heavily frustrated by the complexity of the current system, its lack of scalability, and a significant lack of privacy.
+- Gains: Users expect and wish for time savings, the creation of historical records, and easier APR management. They also expect the system to produce fewer errors and provide better communication with users.
+
+** Value Map ** 
+- Features To address the customer jobs, the product includes a member portal, meter reading records, and an automated billing system.
+- Pain Relievers: The software directly relieves user frustrations because it reduces manual administration and preventes data exposure.
+- Generate Satrisfaction: The product creates value and satisfaction by delivering significant time savings, ease of use, and clear information for members.
