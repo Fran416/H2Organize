@@ -47,13 +47,13 @@ The strategy for H2Organize is centered on bridging the digital divide in rural 
 
 ### 2.1. UX Personas
 
-** Persona 1: Juan **
+**Persona 1: Juan**
 
 As the president and main provider for his family, Juan has lived in the rural Temuco community his entire life and carries the heavy burden of keeping the system operational. Despite his deep of knowledge of the APR system, he has a very little experience using digital platforms. His major pain points are manual recordkeeping and the resulting wasted time. He needs simple, affordable software that remains reliable during periods of poor conectivity to reduce the time spent recording and collecting water charges.
 
 ![UX Persona - Juan](docs/images/PersonaCanvas/1Juan.png)
 
-** Persona 2: Pedro ** 
+**Persona 2: Pedro** 
 
 Pedro represents the elderly segment of the community; he is retired, has limited digital skills, and relies on younger family members for assistance. His greatest frustrations stem from his limited technology skills, difficulty seeing clearly, and a general distrust of digital systems. Furthermore, he struggles to navigate menus with many options. For Pedro, the system must provide simple software with technical support, ensuring strict privacy for his bills and payments.
 
@@ -65,7 +65,7 @@ Holding a master's degree in Mathematical Civil Engineering, Juana represents us
 
 ![UX Persona - Juana](docs/images/PersonaCanvas/3Juana.png)
 
-** Persona 4: Julio **
+**Persona 4: Julio**
 
 Julio has worked as the system operator for four years and directly faces the challenges of fieldwork. His main pain points are manual recordkeeping and wasted time. He needs simple and intuitive software that is reliable in areas with poor connectivity to allow for the quick and easy submission of meter readings. His broader goals include improving communication with the committee, making health recordkeeping easier, and receiving notifications about water supply interruptions.
 
