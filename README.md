@@ -77,12 +77,12 @@ Julio has worked as the system operator for four years and directly faces the ch
 
 The "Value Proposition Canvas" ensured that the features of H2Organize directly address the frustrations of our Personas while delivering tangible benefits
 
-** Customer Profile ** 
+**Customer Profile** 
 - Customer Jobs: The users are trying to protect sensitive data, record water consumption and payments, and share important notices such as water outages or member meetings.
 - Pains: Currently, users experience negative situations related to inefficient management and communication. They are heavily frustrated by the complexity of the current system, its lack of scalability, and a significant lack of privacy.
 - Gains: Users expect and wish for time savings, the creation of historical records, and easier APR management. They also expect the system to produce fewer errors and provide better communication with users.
 
-** Value Map ** 
+**Value Map** 
 - Features To address the customer jobs, the product includes a member portal, meter reading records, and an automated billing system.
 - Pain Relievers: The software directly relieves user frustrations because it reduces manual administration and preventes data exposure.
 - Generate Satrisfaction: The product creates value and satisfaction by delivering significant time savings, ease of use, and clear information for members.
