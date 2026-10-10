@@ -86,3 +86,9 @@ The "Value Proposition Canvas" ensured that the features of H2Organize directly 
 - Features To address the customer jobs, the product includes a member portal, meter reading records, and an automated billing system.
 - Pain Relievers: The software directly relieves user frustrations because it reduces manual administration and preventes data exposure.
 - Generate Satrisfaction: The product creates value and satisfaction by delivering significant time savings, ease of use, and clear information for members.
+
+### 2.3. Customer Journey Map
+
+The Customer Journey Map outlines the end-to-end experience of our primary users. Its purpose is to visualize their interactions with H2Organizer across different stages, from initially discovering the platform to daily operation and long-term loyalty. By mapping out their specific goals, touchpoints, and pain points at each step, this tool ensures our design strategy directly addresses their needs.
+
+![Customer Journey Map](docs/images/customer_journey_map.png)
