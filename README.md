@@ -11,6 +11,8 @@ User Experience Design for Rural Drinking Water Committee Management.
 - [2. Strategy and Scope](#2-strategy-and-scope)
   - [2.1. UX Personas](#21-ux-personas)
   - [2.2. Value Proposition Canvas](#22-value-proposition-canvas)
+  - [2.3. Customer Journey Map](#23-customer-journey-map)
+  - [2.4. Benchmarking](#24-benchmarking)
 
 ## 1. Introduction
 
@@ -59,7 +61,7 @@ Pedro represents the elderly segment of the community; he is retired, has limite
 
 ![UX Persona - Pedro](docs/images/PersonaCanvas/2Pedro.png)
 
-** Persona 3: Juana **
+**Persona 3: Juana**
 
 Holding a master's degree in Mathematical Civil Engineering, Juana represents users with high digital literacy. Her pain points revolve around the uncertainty of her bills, the difficulty in reporting errors to the committee leadership, and having little time to follow up on her water usage records. She requires simple, intuitive software that provides payment estimates and a quick way to report errors in water charges to save time.
 
@@ -91,4 +93,14 @@ The "Value Proposition Canvas" ensured that the features of H2Organize directly 
 
 The Customer Journey Map outlines the end-to-end experience of our primary users. Its purpose is to visualize their interactions with H2Organizer across different stages, from initially discovering the platform to daily operation and long-term loyalty. By mapping out their specific goals, touchpoints, and pain points at each step, this tool ensures our design strategy directly addresses their needs.
 
-![Customer Journey Map](docs/images/customer_journey_map.png)
+![Customer Journey Map](docs/images/CustomerJourneyMap/CJM.png)
+
+### 2.4. Benchmarking
+
+UX benchmarking compares existing products to identify useful features and usability improvements. We analyzed **Sistema APR**, **ComunidadFeliz**, and **Banco Falabella** to guide H2Organize’s design.
+
+Each platform provides a different perspective: rural water management, community administration, and clear financial interactions. Together, they help us understand how to simplify everyday tasks for our users.
+
+![H2Organize Benchmark](docs/images/benchmark/H2Organize.png)
+
+We summarized our findings in this image and included a detailed benchmark analysis [Benchmark.md](docs/Benchmark.md) to explain the observations behind our design decisions.

@@ -1,3 +1,9 @@
+# Benchmark Overview
+
+The image below summarizes what we aim to increase, include, decrease, or remove when designing H2Organize. The platform analyses that follow explain the observations behind these decisions.
+
+![H2Organize Benchmark](images/benchmark/H2Organize.png)
+
 # 1\. Sistema APR (Direct Competitor)
 
 ## 1.1 Selection Rationale
@@ -7,7 +13,7 @@
 ## 1.2 Mandatory Baseline Dimensions
 
 **Technical Identification:**
-
+    
 - Name: Sistema APR  
 - Platform: Responsive Web Application  
 - Version Analyzed: Active Cloud Web Environment, Free Trial  
