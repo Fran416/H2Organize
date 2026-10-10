@@ -94,6 +94,7 @@ The "Value Proposition Canvas" ensured that the features of H2Organize directly 
 The Customer Journey Map outlines the end-to-end experience of our primary users. Its purpose is to visualize their interactions with H2Organizer across different stages, from initially discovering the platform to daily operation and long-term loyalty. By mapping out their specific goals, touchpoints, and pain points at each step, this tool ensures our design strategy directly addresses their needs.
 
 ![Customer Journey Map](docs/images/CustomerJourneyMap/CJM.png)
+<<<<<<< HEAD
 
 ### 2.4. Benchmarking
 
@@ -104,3 +105,5 @@ Each platform provides a different perspective: rural water management, communit
 ![H2Organize Benchmark](docs/images/benchmark/H2Organize.png)
 
 We summarized our findings in this image and included a detailed benchmark analysis [Benchmark.md](docs/Benchmark.md) to explain the observations behind our design decisions.
+=======
+>>>>>>> b4fbe613b10f4c31dcac48b8d799f24b29e92f62
