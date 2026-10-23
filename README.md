@@ -13,7 +13,13 @@ User Experience Design for Rural Drinking Water Committee Management.
   - [2.2. Value Proposition Canvas](#22-value-proposition-canvas)
   - [2.3. Customer Journey Map](#23-customer-journey-map)
   - [2.4. Benchmarking](#24-benchmarking)
-
+- [3. Structure](#3-structure)
+- [4. Layer Skeleton](#4-layer-skeleton)
+  - [4.1 Main Dashboard](#41-main-dashboard)
+  - [4.2 Member Directoy](#42-member-directory)
+  - [4.3 Meter Readings](#43-meter-readings)
+  - [4.4 Billing and Collections](#44-billing-and-collections)
+  - [4.5 Issues and Reports](#45-issues-and-reports)
 ## 1. Introduction
 
 ### 1.1. Problem
@@ -104,3 +110,67 @@ Each platform provides a different perspective: rural water management, communit
 ![H2Organize Benchmark](docs/images/benchmark/H2Organize.png)
 
 We summarized our findings in this image and included a detailed benchmark analysis [Benchmark.md](docs/Benchmark.md) to explain the observations behind our design decisions.
+
+## 3. Structure
+
+## 4. Layer Skeleton
+
+**Interactive Figma Canvas:** [View Low-Fidelity Wireframes](https://www.figma.com/design/7bfLmHadeUUsBypPj2g5Yz/Wireframes?node-id=82-1493&t=Wbqk4IApEv1jXSIO-1)
+
+Low-fidelity wireframes focused on layout distribution, information architecture, navigation flow, and functional hierarchy across the system modules.
+
+### 4.1. Main Dashboard
+**Function:** Centralize real-time global operational visibility for the APR committee.
+
+![H2Organize Main Dashboard](docs/images/Wireframes/1_Dashboard.png)
+
+**Functional Description:** 
+- Displays strategic KPIs at the top (total monthly collection, total accumulated consumption in m³, percentage of members up to date, and number of active alerts).
+- Features an interactive consumption chart broken down by sector (North, West, Highway, Downtown, South) to identify demand anomalies by area.
+- Provides a quick-access panel for frequent operational tasks (registering new readings, generating bulk bills, and sending WhatsApp notices).
+- Includes a condensed reference table for quick lookup of members' operational and payment status.
+
+### 4.2. Member Directory
+**Function:** Manage the master registry of affiliated members and their financial/operational status.
+
+![H2Organize Main Dashboard](docs/images/Wireframes/2_SociosList.png)
+
+**Functional Description:** 
+- Consolidates community status metrics (total registered members, members up to date, and members with pending debt).
+- Provides filtering tools by geographic sector and search capabilities by name, RUT, or meter number.
+- Displays a detailed data table with individual member information (Meter No., sector, monthly recorded consumption, billed amount, and payment status).
+- Features direct row-level action buttons ("Ver detalles") and the primary "+ Agregar socio" entry point.
+
+### 4.3. Meter Readings
+**Function:** Monitor and manage the monthly field reading collection process.
+
+![H2Organize Main Dashboard](docs/images/Wireframes/3_WaterUsage.png)
+
+**Functional Description:** 
+- Displays metrics tracking reading collection progress (recorded readings, pending readings, and issued reports).
+- Integrates an operational control table with separate status fields: Reading Status ("Registrada", "Anómala", "Pendiente") and Meter Condition ("Operativo", "Manipulado", "Averiado").
+- Enables early detection of physical or visual anomalies in meters prior to the billing process.
+
+### 4.4. Billing and Collections
+**Function:** Manage revenue collection, billing document issuance, and overdue account tracking.
+
+![H2Organize Main Dashboard](docs/images/Wireframes/4_Billing.png)
+
+**Functional Description:** 
+- Offers tabbed navigation (*Boletas y cobros*, *Atrasos*, *Multas*) to categorize different financial transaction types.
+- Displays total monthly collections and the number of bills in pending, paid, or overdue status.
+- Facilitates batch bill generation and individual balance breakdowns.
+- Maintains a clear conceptual separation between regular water consumption bills and penalty charges applied via fines.
+
+### 4.5. Issues and Reports
+**Function:** Log, process, and track technical failures, equipment tampering, and operational irregularities.
+
+![H2Organize Main Dashboard](docs/images/Wireframes/5_Issues.png)
+
+**Functional Description:** 
+- Displays event management indicators (total issues, pending review, tampered/damaged meters, and resolved/penalized cases).
+- Includes a filtering system by event type (*Manipulado, Averiado, Consumo Anómalo, Inaccesible*) and case status (*Pendiente, En revisión, Resuelto*).
+- Lists logged issues with their unique report ID (`INC-XXX`), registration date, sector, and action buttons ("Ver detalle") to enable resolution or sanction workflows.
+
+### 4.6 
+
