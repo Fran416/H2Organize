@@ -14,12 +14,14 @@ User Experience Design for Rural Drinking Water Committee Management.
   - [2.3. Customer Journey Map](#23-customer-journey-map)
   - [2.4. Benchmarking](#24-benchmarking)
 - [3. Structure](#3-structure)
+  - [3.1. Navigation Flow](#31-navigation-flow)
 - [4. Layer Skeleton](#4-layer-skeleton)
   - [4.1 Main Dashboard](#41-main-dashboard)
   - [4.2 Member Directoy](#42-member-directory)
   - [4.3 Meter Readings](#43-meter-readings)
   - [4.4 Billing and Collections](#44-billing-and-collections)
   - [4.5 Issues and Reports](#45-issues-and-reports)
+
 ## 1. Introduction
 
 ### 1.1. Problem
@@ -113,6 +115,22 @@ We summarized our findings in this image and included a detailed benchmark analy
 
 ## 3. Structure
 
+Building on the benchmark findings, H2Organize organizes navigation around each user's responsibilities and familiarity with technology. The committee needs a workspace to manage community information and payments, while operators need a practical interface for recording readings in the field.
+
+For community members, even a simple menu may be a barrier. Their experience therefore begins with a personal WhatsApp link that provides access to payment and payment history without requiring a login.
+
+### 3.1. Navigation Flow
+
+The platform follows three main paths:
+
+**Committee — Web interface:** After logging in, the committee accesses a dashboard with sections for members, readings, billing and payments, and incidents. Each section provides access to the information and actions needed to manage the community.
+**Operator — Mobile and tablet interface:** After logging in, the operator finds a meter, enters its reading and any observations, saves the information, and continues to the next meter.
+ **Member — Mobile payment:** A personal WhatsApp link opens "**Pagar mi cuenta**" directly. After a payment attempt, the member returns to **Resumen mensual**, which shows whether the payment succeeded and the remaining debt. From there, they can view their payment history or return to pay if a balance remains.
+
+Each interface focuses on the tasks its users need to complete, keeping daily administration organized and the member's payment process easy to follow.
+
+![H2Organize navigation flow for committee, operator, and member](docs/images/navigation/H2Organize-navigation-horizontal.png)
+
 ## 4. Layer Skeleton
 
 **Interactive Figma Canvas:** [View Low-Fidelity Wireframes](https://www.figma.com/design/7bfLmHadeUUsBypPj2g5Yz/Wireframes?node-id=82-1493&t=Wbqk4IApEv1jXSIO-1)
@@ -171,6 +189,3 @@ Low-fidelity wireframes focused on layout distribution, information architecture
 - Displays event management indicators (total issues, pending review, tampered/damaged meters, and resolved/penalized cases).
 - Includes a filtering system by event type (*Manipulado, Averiado, Consumo Anómalo, Inaccesible*) and case status (*Pendiente, En revisión, Resuelto*).
 - Lists logged issues with their unique report ID (`INC-XXX`), registration date, sector, and action buttons ("Ver detalle") to enable resolution or sanction workflows.
-
-### 4.6 
-
