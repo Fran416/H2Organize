@@ -17,7 +17,7 @@ User Experience Design for Rural Drinking Water Committee Management.
   - [3.1. Navigation Flow](#31-navigation-flow)
 - [4. Layer Skeleton](#4-layer-skeleton)
   - [4.1 Main Dashboard](#41-main-dashboard)
-  - [4.2 Member Directoy](#42-member-directory)
+  - [4.2 Member Directory](#42-member-directory)
   - [4.3 Meter Readings](#43-meter-readings)
   - [4.4 Billing and Collections](#44-billing-and-collections)
   - [4.5 Issues and Reports](#45-issues-and-reports)
@@ -25,7 +25,7 @@ User Experience Design for Rural Drinking Water Committee Management.
 ## 1. Introduction
 
 ### 1.1. Problem
-Rural Drinking Water (APR - Agua Potable Rural) committees are vital, community-driven organizations responsible for extracting, treating, and distributing water in remote areas unserved by large utility companies. Operating as a state-supported public policy for over 60 years, there are currently more than 2,400 operational APR systems across Chile. These systems are much more than just infrastructure; they represent a fundamental pillar for health, equity, economic development, and social justice, providing essential water and sanitation access to over 2.2 million rural residents.
+Rural Drinking Water (APR - Agua Potable Rural) committees are vital, community-driven organizations responsible for extracting, treating, and distributing water in remote areas unserved by large utility companies. The APR program has operated as a state-supported public policy for over 60 years, and there are currently more than 2,400 operational APR systems across Chile. These systems are much more than just infrastructure; they represent a fundamental pillar for health, equity, economic development, and social justice, providing essential water and sanitation access to over 2.2 million rural residents.
 
 However, despite their massive scale and critical importance, the daily administration of these systems—including meter readings, billing, service cutoffs, assemblies, and tracking overdue payments—remains largely manual and paper-based, relying heavily on the efforts of volunteer local leaders.
 
@@ -36,7 +36,7 @@ Transitioning this outdated management system to a digital platform presents two
 * Social Data Sensitivity: In small, tight-knit localities, the design object is inherently collective. The way community information is handled and displayed has direct social consequences. The system must guarantee strict privacy so that sensitive data, such as a neighbor's overdue debts, is never exposed to the broader community.
 
 ### 1.2. Solution
-H2Organizer is a digital management platform designed specifically to address the administrative and social realities of Rural Drinking Water (APR) committees. Our goal is to streamline the committee's workload while providing an accessible, friction-less experience for all community members, regardless of their digital literacy levels.
+H2Organize is a digital management platform designed specifically to address the administrative and social realities of Rural Drinking Water (APR) committees. Our goal is to streamline the committee's workload while providing an accessible, frictionless experience for all community members, regardless of their digital literacy levels.
 
 The proposed solution operates on two main fronts, supported by a familiar communication channel:
 
@@ -44,7 +44,7 @@ The proposed solution operates on two main fronts, supported by a familiar commu
 
 * Private Member Portal (For the Community): A secure, simplified access point where individual members can view their personal consumption data and access a payment gateway. This ensures transparency and autonomy while strictly protecting each user's financial privacy from the rest of the community.
 
-* Frictionless Notifications (WhatsApp Integration): To bridge the digital divide, H2Organizer will leverage WhatsApp as its primary notification system. Since WhatsApp is already the established and trusted tool for coordination in these rural communities, using it for automated alerts (such as new bills, payment reminders, or service updates) drastically reduces the learning curve and ensures critical information reaches everyone.
+* Frictionless Notifications (WhatsApp Integration): To bridge the digital divide, H2Organize will leverage WhatsApp as its primary notification system. Since WhatsApp is already the established and trusted tool for coordination in these rural communities, using it for automated alerts (such as new bills, payment reminders, or service updates) drastically reduces the learning curve and ensures critical information reaches everyone.
 
 ### 1.3. Team and Roles
 * Francisco Lizama → Project Manager
@@ -53,13 +53,13 @@ The proposed solution operates on two main fronts, supported by a familiar commu
 
 ## 2. Strategy and Scope
 
-The strategy for H2Organize is centered on bridging the digital divide in rural communities while ensuring absolute data privacy. Our scope focuses on developing essential administrative and communication features that deliver immediate value without overwhelming users who have limited technological resources. To aling our decisions with actual community needs, we researched the user base and mapped their requirements
+The strategy for H2Organize is centered on bridging the digital divide in rural communities while ensuring absolute data privacy. Our scope focuses on developing essential administrative and communication features that deliver immediate value without overwhelming users who have limited technological resources. To align our decisions with actual community needs, we researched the user base and mapped their requirements.
 
 ### 2.1. UX Personas
 
 **Persona 1: Juan**
 
-As the president and main provider for his family, Juan has lived in the rural Temuco community his entire life and carries the heavy burden of keeping the system operational. Despite his deep of knowledge of the APR system, he has a very little experience using digital platforms. His major pain points are manual recordkeeping and the resulting wasted time. He needs simple, affordable software that remains reliable during periods of poor conectivity to reduce the time spent recording and collecting water charges.
+As the president and main provider for his family, Juan has lived in the rural Temuco community his entire life and carries the heavy burden of keeping the system operational. Despite his deep knowledge of the APR system, he has very little experience using digital platforms. His major pain points are manual recordkeeping and the resulting wasted time. He needs simple, affordable software that remains reliable during periods of poor connectivity to reduce the time spent recording and collecting water charges.
 
 ![UX Persona - Juan](docs/images/PersonaCanvas/1Juan.png)
 
@@ -85,7 +85,7 @@ Julio has worked as the system operator for four years and directly faces the ch
 
 ![Value Proposition Canvas](docs/images/ValuePropositionCanvas/VPC.png)
 
-The "Value Proposition Canvas" ensured that the features of H2Organize directly address the frustrations of our Personas while delivering tangible benefits
+The "Value Proposition Canvas" ensured that the features of H2Organize directly address the frustrations of our personas while delivering tangible benefits.
 
 **Customer Profile** 
 - Customer Jobs: The users are trying to protect sensitive data, record water consumption and payments, and share important notices such as water outages or member meetings.
@@ -93,13 +93,13 @@ The "Value Proposition Canvas" ensured that the features of H2Organize directly 
 - Gains: Users expect and wish for time savings, the creation of historical records, and easier APR management. They also expect the system to produce fewer errors and provide better communication with users.
 
 **Value Map** 
-- Features To address the customer jobs, the product includes a member portal, meter reading records, and an automated billing system.
-- Pain Relievers: The software directly relieves user frustrations because it reduces manual administration and preventes data exposure.
-- Generate Satrisfaction: The product creates value and satisfaction by delivering significant time savings, ease of use, and clear information for members.
+- Features: To address the customer jobs, the product includes a member portal, meter reading records, and an automated billing system.
+- Pain Relievers: The software directly relieves user frustrations because it reduces manual administration and prevents data exposure.
+- Generate Satisfaction: The product creates value and satisfaction by delivering significant time savings, ease of use, and clear information for members.
 
 ### 2.3. Customer Journey Map
 
-The Customer Journey Map outlines the end-to-end experience of our primary users. Its purpose is to visualize their interactions with H2Organizer across different stages, from initially discovering the platform to daily operation and long-term loyalty. By mapping out their specific goals, touchpoints, and pain points at each step, this tool ensures our design strategy directly addresses their needs.
+The Customer Journey Map outlines the end-to-end experience of our primary users. Its purpose is to visualize their interactions with H2Organize across different stages, from initially discovering the platform to daily operation and long-term loyalty. By mapping out their specific goals, touchpoints, and pain points at each step, this tool ensures our design strategy directly addresses their needs.
 
 ![Customer Journey Map](docs/images/CustomerJourneyMap/CJM.png)
 
@@ -135,7 +135,7 @@ Each interface focuses on the tasks its users need to complete, keeping daily ad
 
 **Interactive Figma Canvas:** [View Low-Fidelity Wireframes](https://www.figma.com/design/7bfLmHadeUUsBypPj2g5Yz/Wireframes?node-id=82-1493&t=Wbqk4IApEv1jXSIO-1)
 
-Low-fidelity wireframes focused on layout distribution, information architecture, navigation flow, and functional hierarchy across the system modules.
+These low-fidelity wireframes focus on layout distribution, information architecture, navigation flow, and functional hierarchy across the system modules.
 
 ### 4.1. Main Dashboard
 **Function:** Centralize real-time global operational visibility for the APR committee.
